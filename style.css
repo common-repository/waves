@@ -1,0 +1,32 @@
+/* Editor styles */
+.wp-block-a8c-waves {
+  position: relative;
+  min-height: 430px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: bottom left / cover no-repeat; }
+  .wp-block-a8c-waves::after {
+    display: block;
+    content: '';
+    font-size: 0;
+    min-height: inherit; }
+    @supports (position: sticky) {
+      .wp-block-a8c-waves::after {
+        content: none; } }
+  .wp-block-a8c-waves__inner-container {
+    width: calc( 100% - 70px);
+    padding: 2rem 0;
+    z-index: 1; }
+  .wp-block-a8c-waves.alignleft, .wp-block-a8c-waves.alignright {
+    max-width: 290px;
+    width: 100%; }
+  .wp-block-a8c-waves.aligncenter, .wp-block-a8c-waves.alignleft, .wp-block-a8c-waves.alignright {
+    display: flex; }
+  .wp-block-a8c-waves canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%; }

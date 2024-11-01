@@ -1,0 +1,13 @@
+/* Editor styles */
+.wp-block-a8c-waves__inner-container > .block-editor-inner-blocks
+> .block-editor-block-list__layout {
+  margin-left: 0;
+  margin-right: 0; }
+
+.wp-block-a8c-waves__resize-container:not(.is-resizing) {
+  height: auto !important; }
+
+[data-align='left'] > .wp-block-a8c-waves,
+[data-align='right'] > .wp-block-a8c-waves {
+  max-width: 290px;
+  width: 100%; }
